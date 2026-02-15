@@ -187,6 +187,8 @@ streamlit run app.py
 
 - model_files/ – Saved trained models and scaler
 
+- data/ - original full dataset
+
 
 
 
