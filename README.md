@@ -141,11 +141,13 @@ Each model was evaluated using:
 
 The deployed Streamlit app includes:
 
-- CSV dataset upload option
+- CSV dataset upload option (a dataset download option was provided, from which the test_data.csv can be downloaded to the computer.It can later be uploaded through 'Browse Files' option to see the results)
 
-- Built-in test dataset option
+- Built-in test dataset option (second option without downloading or uploading of test dataset)
 
-- Model selection dropdown (default: Upload CSV)
+- Model selection dropdown (default: None)
+
+- Data source selection (default: Upload CSV)
 
 - Display of all 6 evaluation metrics
 
