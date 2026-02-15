@@ -20,23 +20,35 @@ The project includes:
 
 **b. Dataset Description**
 
-**Dataset Name:** Bank Marketing Dataset
+- **Dataset Name:** Bank Marketing Dataset
 
-**Source:** UCI Machine Learning Repository
+- **Source:** UCI Machine Learning Repository
 
-**Instances:** 45,211
+- **Direct Link:** https://archive.ics.uci.edu/ml/datasets/Bank+Marketing
 
-**Features:** 16 input features + 1 target variable
+- **Instances:** 45,211
 
-**Target Variable:** y (Yes/No – whether client subscribed to term deposit)
+- **Features:** 16 input features + 1 target variable
 
-**Feature Types:**
+- **Feature Types:**
 
-**Categorical Features:** job, marital, education, default, housing, loan, contact, month, poutcome
+- **Categorical Features:** job, marital, education, default, housing, loan, contact, month, poutcome
 
-**Numerical Features:** age, balance, day, duration, campaign, pdays, previous
+- **Numerical Features:** age, balance, day, duration, campaign, pdays, previous
 
-The dataset contains no missing values.
+- **Target Variable:** y (Yes/No – whether client subscribed to term deposit)
+
+The dataset contains no missing values. 
+
+**The full dataset (bank-full.csv) and the test dataset (test_data.csv) both are uploaded in the repository.**
+
+This dataset is related to direct marketing campaigns (phone calls) of a Portuguese banking institution. The goal is to predict whether a client will subscribe to a term deposit or not.
+
+- **Citation:**
+
+Moro, S., Cortez, P., & Rita, P. (2014).
+A data-driven approach to predict the success of bank telemarketing.
+Decision Support Systems.
 
 **Data Preprocessing Steps:**
 
